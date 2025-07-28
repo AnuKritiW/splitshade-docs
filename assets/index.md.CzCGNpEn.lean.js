@@ -1,0 +1,1 @@
+import{_ as a,c as t,o,ae as i}from"./chunks/framework.Cd-3tpCq.js";const m=JSON.parse('{"title":"Splitshade Documentation","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),s={name:"index.md"};function n(r,e,d,l,c,u){return o(),t("div",null,e[0]||(e[0]=[i("",8)]))}const p=a(s,[["render",n]]);export{m as __pageData,p as default};
