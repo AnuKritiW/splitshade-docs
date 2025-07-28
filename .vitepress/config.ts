@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/splitshade-docs/',
   title: 'Splitshade Docs',
   description: 'Guide to using Splitshade WebGPU playground',
   themeConfig: {
