@@ -1,13 +1,15 @@
 {
   "name": "splitshade-docs",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "preview": "vitepress preview"
+    "preview": "vitepress preview",
+    "deploy": "vitepress build && gh-pages -d .vitepress/dist"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
   },
   "homepage": "https://github.com/AnuKritiW/splitshade-docs#readme",
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "vitepress": "^1.6.3"
   }
 }
