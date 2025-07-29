@@ -11,13 +11,38 @@ export default defineConfig({
     ],
     sidebar: [
       {
-        text: 'Guide',
+        text: 'Introduction',
         items: [
-          { text: 'Introduction', link: '/' },
-          { text: 'Uniforms', link: '/#uniforms' },
-          { text: 'Textures', link: '/#using-textures' },
-          { text: 'Meshes', link: '/#using-meshes' }
+          { text: 'What is Splitshade?', link: '/introduction/what-is-splitshade' },
+          { text: 'Getting Started', link: '/introduction/getting-started' }
         ]
+      },
+      {
+        text: 'Uniforms',
+        items: [
+          { text: 'iTime', link: '/uniforms/iTime' },
+          { text: 'iResolution', link: '/uniforms/iResolution' },
+          { text: 'iMouse', link: '/uniforms/iMouse' },
+          { text: 'iChannel0–iChannel3', link: '/uniforms/iChannel' }
+        ]
+      },
+      {
+        text: 'Textures',
+        items: [
+          { text: 'What Are Textures?', link: '/textures/what-are-textures' },
+          { text: 'Usage', link: '/textures/usage' }
+        ]
+      },
+      {
+        text: 'Meshes',
+        items: [
+          { text: 'What Are Meshes?', link: '/meshes/what-are-meshes' },
+          { text: 'Usage', link: '/meshes/usage' }
+        ]
+      },
+      {
+        text: 'Shader Examples',
+        link: '/examples/index'
       }
     ]
   }
