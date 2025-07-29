@@ -13,30 +13,31 @@ export default defineConfig({
       {
         text: 'Introduction',
         items: [
-          { text: 'What is Splitshade?', link: '/introduction/what-is-splitshade' },
+          { text: 'What is Splitshade?', link: '/introduction/what-is' },
           { text: 'Getting Started', link: '/introduction/getting-started' }
         ]
       },
       {
         text: 'Uniforms',
         items: [
-          { text: 'iTime', link: '/uniforms/iTime' },
+          { text: 'What Are Uniforms?', link: '/uniforms/what-are' },
           { text: 'iResolution', link: '/uniforms/iResolution' },
           { text: 'iMouse', link: '/uniforms/iMouse' },
+          { text: 'iTime', link: '/uniforms/iTime' },
           { text: 'iChannel0–iChannel3', link: '/uniforms/iChannel' }
         ]
       },
       {
         text: 'Textures',
         items: [
-          { text: 'What Are Textures?', link: '/textures/what-are-textures' },
+          { text: 'What Are Textures?', link: '/textures/what-are' },
           { text: 'Usage', link: '/textures/usage' }
         ]
       },
       {
         text: 'Meshes',
         items: [
-          { text: 'What Are Meshes?', link: '/meshes/what-are-meshes' },
+          { text: 'What Are Meshes?', link: '/meshes/what-are' },
           { text: 'Usage', link: '/meshes/usage' }
         ]
       },
