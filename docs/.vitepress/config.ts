@@ -21,6 +21,13 @@ export default defineConfig({
         ]
       },
       {
+        text: 'Shaders',
+        items: [
+          { text: 'Fragment Shaders', link: '/shaders/fragment' },
+          { text: 'Vertex Shaders', link: '/shaders/vertex' },
+        ]
+      },
+      {
         text: 'Uniforms',
         items: [
           { text: 'What Are Uniforms?', link: '/uniforms/what-are' },
@@ -34,14 +41,14 @@ export default defineConfig({
         text: 'Textures',
         items: [
           { text: 'What Are Textures?', link: '/textures/what-are' },
-          { text: 'Usage', link: '/textures/usage' }
+          { text: 'Texture Usage', link: '/textures/usage' }
         ]
       },
       {
         text: 'Meshes',
         items: [
-          { text: 'What Are Meshes?', link: '/meshes/what-are' },
-          { text: 'Usage', link: '/meshes/usage' }
+          { text: 'What is a Mesh?', link: '/meshes/what-is' },
+          { text: 'Mesh Usage', link: '/meshes/usage' }
         ]
       },
       {
