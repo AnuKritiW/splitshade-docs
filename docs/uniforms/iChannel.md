@@ -1,6 +1,6 @@
 # iChannel0–iChannel3
 
-The `iChannel` uniforms allow you to pass **external textures** into your shader. These are typically image samplers used for lookup, masking, layering, or stylized effects.
+The `iChannel` uniforms allow you to pass [**external textures**](../textures/what-are.md) into your shader. These are typically image samplers used for lookup, masking, layering, or stylized effects.
 
 You can access up to **four channels** in your shader:  
 `iChannel0`, `iChannel1`, `iChannel2`, and `iChannel3`.
@@ -62,3 +62,9 @@ fn main(@builtin(position) pos: vec4<f32>) -> @location(0) vec4<f32> {
 }
 ```
 This example multiplies the base texture (`iChannel0`) by the red channel of a mask texture (`iChannel1`) to create a glowing masked effect.
+
+---
+
+Looking for a general overview of textures? See [What are Textures](../../textures/what-are.md).
+
+Want to learn how to assign textures in the Splitshade interface? See [Texture Usage](../../textures/usage.md).
