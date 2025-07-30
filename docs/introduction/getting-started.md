@@ -19,7 +19,7 @@ You can start using Splitshade right away:
 
 **Splitshade** opens with a real-time shader editor and preview panel. You can:
 
-- Write `WGSL` vertex and/or fragment shaders
+- Write `WGSL` [vertex](../shaders/vertex.md) and/or [fragment](../shaders/fragment.md) shaders
 - Inject textures and meshes
 - Use uniform values like `iTime`, `iMouse`, and `iResolution`
 
@@ -28,5 +28,5 @@ You can start using Splitshade right away:
 Learn more about:
 
 - To understand how built-in inputs like time, resolution, and mouse position work in Splitshade, start with the [Uniforms guide](../uniforms/what-are.md), where each uniform is explained with usage tips and shader examples.
-- Want to load images or experiment with visual effects? Learn how to upload and apply textures in the [Textures section](../textures/what-are.md). For 3D shader workflows, head over to the [Meshes guide](../meshes/what-are.md) to see how `.obj` models can be used.
+- Want to load images or experiment with visual effects? Learn how to upload and apply textures in the [Textures section](../textures/what-are.md). For 3D shader workflows, head over to the [Meshes guide](../meshes/what-is.md) to see how `.obj` models can be used.
 - If you’re looking for ideas or want to see what’s possible, browse the [Shader Examples](../examples/index.md) for inspiration.
