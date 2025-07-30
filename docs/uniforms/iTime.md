@@ -11,17 +11,17 @@ This enables time-based animation effects like pulsing, rotation, waves, scrolli
 ### Common Use Cases
 
 - **Animate with sine wave**
-  ```wgsl
+  ```wgsl:no-line-numbers
   let offset = sin(iTime);
   ```
 
 - **Loop an effect every 2 seconds**
-  ```wgsl
+  ```wgsl:no-line-numbers
   let t = iTime % 2.0;
   ```
 
 - **Drive hue or brightness over time**
-  ```wgsl
+  ```wgsl:no-line-numbers
   let brightness = 0.5 + 0.5 * sin(iTime * 2.0);
   ```
 

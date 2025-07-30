@@ -26,14 +26,14 @@ To read from a texture, both the texture and its sampler must be passed to `text
 ### Common Use Cases
 
 - **Read a color from a texture**
-  ```wgsl
+  ```wgsl:no-line-numbers
   let color = textureSample(iChannel0, iChannel0Sampler, uv);
 - **Use a texture as a mask**
-  ```wgsl
+  ```wgsl:no-line-numbers
   let mask = textureSample(iChannel1, iChannel1Sampler, uv).r;
   ```
 - **Distort based on another texture**
-  ```wgsl
+  ```wgsl:no-line-numbers
   let offset = textureSample(iChannel2, iChannel2Sampler, uv).rg;
   ```
 

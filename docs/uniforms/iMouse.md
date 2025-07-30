@@ -18,17 +18,17 @@ If no mouse interaction occurs, all values are `0.0`.
 ### Common Use Cases
 
 - **Track live cursor position**
-  ```wgsl
+  ```wgsl:no-line-numbers
   let mouse = iMouse.xy;
   ```
 
 - **Check if mouse is pressed**
-  ```wgsl
+  ```wgsl:no-line-numbers
   let isDown = iMouse.z > 0.0;
   ```
 
 - **Compute distance from mouse to a fragment**
-  ```wgsl
+  ```wgsl:no-line-numbers
   let dist = distance(pos.xy, iMouse.xy);
   ```
 

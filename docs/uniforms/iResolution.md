@@ -17,31 +17,31 @@ This ensures your shader behaves consistently across different devices and resol
 
 - **Normalize coordinates**
   Convert pixel position to UV space:
-  ```wgsl
+  ```wgsl:no-line-numbers
   let uv = pos.xy / iResolution.xy;
   ```
 
 - **Maintain aspect ratio**
   Adjust effects based on screen shape:
-  ```wgsl
+  ```wgsl:no-line-numbers
   let aspect = iResolution.x / iResolution.y;
   ```
 
 - **Center-based effects**
   Create gradients or masks around the center:
-  ```wgsl
+  ```wgsl:no-line-numbers
   let center = iResolution.xy * 0.5;
   ```
 
 - **Pixel snapping or anti-aliasing**
   Use inverse resolution for fine control:
-  ```wgsl
+  ```wgsl:no-line-numbers
   let pixel = 1.0 / iResolution.xy;
   ```
 
 - **Resolution-dependent scaling**
   Scale blur radius or stroke width dynamically:
-  ```wgsl
+  ```wgsl:no-line-numbers
   let blurSize = 4.0 * iResolution.y / 1080.0;
   ```
 

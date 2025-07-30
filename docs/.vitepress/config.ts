@@ -4,6 +4,9 @@ export default defineConfig({
   base: '/splitshade-docs/',
   title: 'Splitshade Docs',
   description: 'Guide to using Splitshade WebGPU playground',
+  markdown: {
+    lineNumbers: true
+  },
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
