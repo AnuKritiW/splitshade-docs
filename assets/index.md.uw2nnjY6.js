@@ -1,0 +1,1 @@
+import{af as e,c as t,o as a}from"./chunks/framework.DmqzXzOt.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"index.md","filePath":"index.md"}'),o={name:"index.md"},_=Object.assign(o,{setup(r){return e().go("/splitshade-docs/introduction/what-is"),(n,c)=>(a(),t("div"))}});export{d as __pageData,_ as default};
