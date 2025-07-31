@@ -65,6 +65,6 @@ This example multiplies the base texture (`iChannel0`) by the red channel of a m
 
 ---
 
-Looking for a general overview of textures? See [What are Textures](../../textures/what-are.md).
+Looking for a general overview of textures? See [What are Textures](../textures/what-are.md).
 
-Want to learn how to assign textures in the Splitshade interface? See [Texture Usage](../../textures/usage.md).
+Want to learn how to assign textures in the Splitshade interface? See [Texture Usage](../textures/usage.md).
