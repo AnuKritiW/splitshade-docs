@@ -4,6 +4,9 @@ export default defineConfig({
   base: '/splitshade-docs/',
   title: 'Splitshade Docs',
   description: 'Guide to using Splitshade WebGPU playground',
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/splitshade-docs/icons/shadow.png' }]
+  ],
   markdown: {
     lineNumbers: true
   },
